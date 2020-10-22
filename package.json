@@ -1,0 +1,22 @@
+{
+    "name": "edwardium-colorscheme",
+    "displayName": "Edwardium Colorscheme",
+    "description": "Edwardium colorscheme",
+    "version": "1.0.0",
+    "publisher": "Edwardium",
+    "engines": {
+        "vscode": "^1.25.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Edwardium",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Edwardium-color-theme.json"
+            }
+        ]
+    }
+}
