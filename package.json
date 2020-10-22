@@ -13,9 +13,14 @@
     "contributes": {
         "themes": [
             {
-                "label": "Edwardium",
+                "label": "Edwardium (dark)",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Edwardium-color-theme.json"
+                "path": "./themes/edwardium-dark.color-theme.json"
+            },
+            {
+                "label": "Edwardium (light)",
+                "uiTheme": "vs",
+                "path": "./themes/edwardium-light.color-theme.json"
             }
         ]
     }
