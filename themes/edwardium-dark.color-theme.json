@@ -3,25 +3,20 @@
 	"type": "dark",
 	"colors": {
 		"tab.activeModifiedBorder": "#E6003A",
-
 		"editor.background": "#111111",
 		"editorGutter.background": "#151515",
 		"editor.foreground": "#B9B5B8",
-
 		"peekViewEditor.background": "#000000",
 		"peekView.border": "#E6003A",
-
 		"editor.lineHighlightBackground": "#FFFFFF20",
 		"editor.lineHighlightBorder": "#00000000",
-
 		"sideBar.background": "#111111",
 		"sideBar.border": "#000000",
 		"sideBarSectionHeader.background": "#222222",
-
 		"activityBar.background": "#000000",
-
 		"statusBar.background": "#000000",
-
+		"statusBar.debuggingBackground": "#E6003A",
+		"statusBar.noFolderBackground": "#003AE6",
 		"terminal.ansiBlack": "#000000",
 		"terminal.ansiBrightBlack": "#333333",
 		"terminal.ansiRed": "#E6003A",
@@ -43,13 +38,17 @@
 		{
 			"name": "Default",
 			"scope": [
-				"meta.attribute.python"
+				"meta.attribute.python",
+				"meta.template.expression",
+				"variable.other.normal.shell",
+				"variable.other.bracket.shell",
+				"variable.other.positional.shell",
+				"variable.other.special.shell",
 			],
 			"settings": {
 				"foreground": "#B9B5B8"
 			}
 		},
-	
 		{
 			"name": "Grey",
 			"scope": [
@@ -69,7 +68,11 @@
 			"scope": [
 				"keyword.operator",
 				"keyword.other",
-				"variable.language.super.rust",
+				"punctuation.definition.heading",
+				"punctuation.definition.list",
+				"punctuation.definition.block.sequence.item",
+				"punctuation.definition.markdown",
+				"punctuation.definition.raw.markdown",
 				"punctuation.accessor.optional.ts",
 				"punctuation.separator.pointer-access.cpp",
 				"punctuation.separator.dot-access.cpp",
@@ -94,7 +97,9 @@
 		{
 			"name": "Green",
 			"scope": [
-				"string"
+				"string",
+				"markup.inline.raw.string",
+				"markup.fenced_code.block"
 			],
 			"settings": {
 				"foreground": "#3AE600"
@@ -103,17 +108,15 @@
 		{
 			"name": "Yellow",
 			"scope": [
+				"constant",
 				"entity.name.type",
+				"entity.name.tag",
 				"entity.other.inherited-class",
 				"support.class.builtin",
 				"support.type.primitive",
 				"support.type.builtin",
-				"constant",
-
-				"variable.other.normal.shell",
-				"variable.other.positional.shell",
-				"variable.other.special.shell",
-
+				"support.type.property-name",
+				"meta.link.inline",
 				"support.type.python"
 			],
 			"settings": {
@@ -123,8 +126,7 @@
 		{
 			"name": "Yellow bold",
 			"scope": [
-				"variable.language.self",
-				"variable.language.this"
+				"variable.language"
 			],
 			"settings": {
 				"foreground": "#E6AC00",
@@ -132,9 +134,22 @@
 			}
 		},
 		{
+			"name": "Orange",
+			"scope": [
+				"variable.language.super",
+				"variable.language.self"
+			],
+			"settings": {
+				"foreground": "#E63900"
+			}
+		},
+		{
 			"name": "Blue",
 			"scope": [
-				"entity.name.function.macro"
+				"entity.name.function.macro",
+				"punctuation.definition.template-expression.begin",
+				"punctuation.definition.template-expression.end",
+				"punctuation.definition.variable.shell"
 			],
 			"settings": {
 				"foreground": "#003AE6"
@@ -154,8 +169,7 @@
 			"scope": [
 				"entity.name.function",
 				"meta.attribute",
-				
-				// python
+				"entity.name.section",
 				"meta.function-call.generic.python",
 				"support.function.builtin.python"
 			],
@@ -171,8 +185,6 @@
 				"constant.other.caps",
 				"variable.other.enummember",
 				"variable.other.constant",
-				
-				"punctuation.definition.variable.shell",
 				"punctuation.section.array.shell"
 			],
 			"settings": {
