@@ -4,6 +4,13 @@
     "description": "Edwardium colorscheme",
     "version": "1.0.0",
     "publisher": "Edwardium",
+    "repository": "https://github.com/TheEdward162/edwardium-colorscheme",
+    "scripts": {
+        "pack": "vsce package"
+    },
+    "devDependencies": {
+        "vsce": "^1"
+    },
     "engines": {
         "vscode": "^1.25.0"
     },
