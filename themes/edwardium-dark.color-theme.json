@@ -6,6 +6,8 @@
 		"editor.background": "#111111",
 		"editorGutter.background": "#151515",
 		"editor.foreground": "#B9B5B8",
+		"editorInlayHint.background": "#00000000",
+		"editorInlayHint.foreground": "#878186",
 		"peekViewEditor.background": "#000000",
 		"peekView.border": "#E6003A",
 		"editor.lineHighlightBackground": "#FFFFFF20",

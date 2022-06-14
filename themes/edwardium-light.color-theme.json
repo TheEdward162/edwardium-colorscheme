@@ -5,6 +5,8 @@
 		"tab.activeModifiedBorder": "#E6003A",
 		"editor.background": "#FBF2E7",
 		"editor.foreground": "#464A47",
+		"editorInlayHint.background": "#00000000",
+		"editorInlayHint.foreground": "#797d7a",
 		"peekViewEditor.background": "#000000",
 		"peekView.border": "#E6003A",
 		"editor.lineHighlightBackground": "#FFFFFF20",
