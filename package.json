@@ -6,7 +6,7 @@
     "publisher": "Edwardium",
     "repository": "https://github.com/TheEdward162/edwardium-colorscheme",
     "scripts": {
-        "pack": "vsce package"
+        "build": "vsce package"
     },
     "devDependencies": {
         "vsce": "^1"
