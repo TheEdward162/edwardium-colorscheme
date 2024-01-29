@@ -2,14 +2,14 @@
     "name": "edwardium-colorscheme",
     "displayName": "Edwardium Colorscheme",
     "description": "Edwardium colorscheme",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "publisher": "Edwardium",
     "repository": "https://github.com/TheEdward162/edwardium-colorscheme",
     "scripts": {
         "build": "vsce package"
     },
     "devDependencies": {
-        "vsce": "^1"
+        "vsce": "^2"
     },
     "engines": {
         "vscode": "^1.25.0"

@@ -3,7 +3,7 @@
 	"type": "light",
 	"colors": {
 		"tab.activeModifiedBorder": "#E6003A",
-		"editor.background": "#FBF2E7",
+		"editor.background": "#FFFFFF",
 		"editor.foreground": "#464A47",
 		"editorInlayHint.background": "#00000000",
 		"editorInlayHint.foreground": "#797d7a",
@@ -11,11 +11,11 @@
 		"peekView.border": "#E6003A",
 		"editor.lineHighlightBackground": "#FFFFFF20",
 		"editor.lineHighlightBorder": "#00000000",
-		"sideBar.background": "#F7E6D1",
+		"sideBarSectionHeader.background": "#fff7ee",
+		"sideBar.background": "#FFFBF7",
 		"sideBar.border": "#F4DABB",
-		"sideBarSectionHeader.background": "#F4DABB",
-		"activityBar.background": "#F4DABB",
-		"statusBar.background": "#F0CEA5",
+		"activityBar.background": "#000000",
+		"statusBar.background": "#000000",
 		"statusBar.debuggingBackground": "#E6003A",
 		"statusBar.noFolderBackground": "#003AE6",
 		"terminal.ansiBlack": "#000000",
@@ -175,7 +175,7 @@
 				"support.function.builtin.python"
 			],
 			"settings": {
-				"foreground": "#00E6AC"
+				"foreground": "#00D8A2"
 			}
 		},
 		{
